@@ -1,0 +1,17 @@
+{
+    "nfts": [
+      {
+        "id": 1,
+        "name": "Crypto Hedgehog",
+        "image": "/image1.jpg",
+        "description": "Crypto Hedgehog with Ethereum glasses."
+      },
+      {
+        "id": 2,
+        "name": "Cool Fox",
+        "image": "/image2.jpg",
+        "description": "Cool Fox with a blue shirt."
+      }
+    ]
+  }
+  

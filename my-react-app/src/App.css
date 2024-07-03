@@ -1,0 +1,161 @@
+/* Global reset and base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.App {
+  text-align: center;
+  background-image: url('D:/Hackathon/my-react-app/src/creatorbackground-2.jpeg');
+  color: aliceblue;
+  background-position: center bottom; /* Center the background image both horizontally and vertically */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-size: cover;
+}
+
+/* Header styles */
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 20px; /* Adjusted padding for smaller header */
+  color: white;
+  text-align: left;
+}
+
+.header nav {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.header nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* NFT gallery */
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nft-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #334146;
+  margin: 10px;
+  padding: 37px;
+  width: 200px;
+  text-align: left;
+  transition: transform 0.2s ease;
+  opacity: 89%;
+}
+
+.nft-card:hover {
+  transform: scale(1.05);
+}
+
+.nft-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Footer styles */
+
+
+/* Search bar */
+.search-bar {
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+/* NFT details */
+.nft-details {
+  padding: 20px;
+}
+
+.nft-details img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.nft-details .buy-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.nft-details .buy-button:hover {
+  background-color: #218838;
+}
+
+/* Login page styles */
+.login {
+
+  padding: 200px;
+  text-align: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 78px;
+}
+
+.login form div {
+  margin-bottom:30px;
+
+}
+
+.login form label {
+  margin-right: 10px;
+}
+
+.login form input {
+  padding: 5px;
+  font-size: 1em;
+  
+}
+
+.login button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.login button:hover {
+  background-color: #218838;
+}
+
+/* Green button styles */
+.green-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.green-button:hover {
+  background-color: darkgreen;
+}
